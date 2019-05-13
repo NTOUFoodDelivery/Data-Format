@@ -1,0 +1,14 @@
+{
+    "query": {
+        "command": "delete",
+        "what": "menu"
+    },
+    "result": [
+        {
+            "Food_Id": 77
+        },
+        {
+            "Food_Id": 66
+        }
+    ]
+}

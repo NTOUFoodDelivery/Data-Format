@@ -1,0 +1,14 @@
+{
+    "query":{
+        "command":"delete",
+        "what":"rest"
+    },
+    "result": [
+        {
+            "restID": 123
+        },
+        {
+            "restID": 456
+        }
+    ]
+}

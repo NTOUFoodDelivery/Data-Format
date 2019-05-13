@@ -5,16 +5,16 @@
     },
     "result": [
         {
-            "Rest_Id": "[SYS]GENERATE",
-            "Rest_Name": "Apple203",
-            "Rest_Address": "中正路111號",
-            "Description": "早餐店"
+            "restID": 123,
+            "restName": "test1",
+            "restAddress": "test1",
+            "description": "test1"
         },
         {
-            "Rest_Id": "[SYS]GENERATE",
-            "Rest_Name": "寶妹",
-            "Rest_Address": "基隆市 中正區中正路 808號 一樓",
-            "Description": "泰式料理，微貴"
+            "restID": 456,
+            "restName": "test2",
+            "restAddress": "test2",
+            "description": "test2"
         }
     ]
 }
