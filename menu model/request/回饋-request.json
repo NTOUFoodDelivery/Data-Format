@@ -1,0 +1,13 @@
+{
+    "query": {
+        "command": "add",
+        "what": "feedBack"
+    },
+    "result": [
+        {
+            "feedBackID":1234,
+            "userID":4567,
+            "content":"hi"
+        }
+    ]
+}

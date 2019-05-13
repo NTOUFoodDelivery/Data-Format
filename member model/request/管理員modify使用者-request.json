@@ -1,0 +1,17 @@
+{
+    "query": {
+        "command": "modify",
+        "what": "user"
+    },
+    "result": [
+        {
+            "userID":"fdvy8bejr",
+            "password":"iofeks",
+            "userName":"ibmelsl",
+            "email":"ifekcv",
+            "phoneNumber":"nyeljb",
+            "address":"56g7fruikf",
+            "userType":"456r7uthj"
+        }
+    ]
+}

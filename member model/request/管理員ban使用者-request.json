@@ -1,0 +1,14 @@
+{
+    "query": {
+        "command": "ban",
+        "what": "user"
+    },
+    "result": [
+        {
+            "userID": 77
+        },
+        {
+            "userID": 66
+        }
+    ]
+}
