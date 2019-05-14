@@ -5,9 +5,9 @@
     },
     "result": [
         {
-            "feedBackID":1234,
-            "userID":4567,
-            "content":"hi"
+            "Feedback_Id":1234,
+            "User_Id":4567,
+            "Content":"hi"
         }
     ]
 }

@@ -3,49 +3,49 @@
 
 - 會員模組-登入-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/LogInServlet
-    - ContentType: application/json;charset=UTF-8
+    - URL: /LogInServlet
+    - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
 - 會員模組-註冊-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/SignUpServlet
-    - ContentType: application/json;charset=UTF-8
+    - URL: /SignUpServlet
+    - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
 - 會員模組-切換身份-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/SwitchIdentityServlet
+    - URL: /SwitchIdentityServlet
     - ContentType: application/json;charset=UTF-8
 - 會員模組-切換登入狀態-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/SwitchStatusServlet
+    - URL: /SwitchStatusServlet
     - ContentType: application/json;charset=UTF-8
 - 菜單模組-查看餐廳-request.json
     - HTTP Method: GET
-    - URL: https://ntou-sfd.herokuapp.com/ShowRestInfoServlet
+    - URL: /ShowRestInfoServlet
     - ContentType: application/json;charset=UTF-8
 - 菜單模組-查看菜單-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/ShowMenuServlet
+    - URL: /ShowMenuServlet
     - ContentType: application/json;charset=UTF-8
 - 菜單模組-計算餐廳時間-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/CalculateDeliveryTimeServlet
+    - URL: /CalculateDeliveryTimeServlet
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-送出訂單-request.json
     - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/SendOrderServlet
+    - URL: /SendOrderServlet
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-外送員-查看已接單頁面-request.json
-    - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/ShowDeliveryStaffCurrentOrderServlet
+    - HTTP Method: GET
+    - URL: /ShowDeliveryStaffCurrentOrderServlet?userID=123
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-查看訂單狀態-request.json
-    - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/ShowCommonUserCurrentOrderServlet
+    - HTTP Method: GET
+    - URL: /ShowCommonUserCurrentOrderServlet?userID=123
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-查看購買紀錄-request.json
-    - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/ShowCommonUserHistoryOrderServlet
+    - HTTP Method: GET
+    - URL: /ShowCommonUserHistoryOrderServlet?userID=123
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-外送員-查看購買紀錄-request.json
-    - HTTP Method: Post
-    - URL: https://ntou-sfd.herokuapp.com/ShowDeliveryStaffHistoryOrderServlet
+    - HTTP Method: GET
+    - URL: /ShowDeliveryStaffHistoryOrderServlet?userID=123
     - ContentType: application/json;charset=UTF-8

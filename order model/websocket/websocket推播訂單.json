@@ -1,7 +1,7 @@
 {
-    "Order_Id":"yfudj",
+    "Order_Id":123,
     "Sum_price":63,
-    "meals":
+    "Meals":
     [
         {
             "Food_Name":"yfudj",
@@ -9,6 +9,6 @@
         }
     ],
     "Time":"yfusdgdj",
-    "Rest_address":"ysuddj",
-    "Customer_address":"ydsgffudj"
+    "Rest_Address":"ysuddj",
+    "Customer_Address":"ydsgffudj"
 }

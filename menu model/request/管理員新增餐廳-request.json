@@ -5,16 +5,16 @@
     },
     "result": [
         {
-            "restID": 123,
-            "restName": "test1",
-            "restAddress": "test1",
-            "description": "test1"
+            "Rest_ID": 123,
+            "Rest_Name": "test1",
+            "Rest_Address": "test1",
+            "Description": "test1"
         },
         {
-            "restID": 456,
-            "restName": "test2",
-            "restAddress": "test2",
-            "description": "test2"
+            "Rest_ID": 456,
+            "Rest_Name": "test2",
+            "Rest_Address": "test2",
+            "Description": "test2"
         }
     ]
 }

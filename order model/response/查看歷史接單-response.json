@@ -1,12 +1,12 @@
 [
     {
-        "History_Id":"vyafsfduj",
+        "History_Id":456,
         "Start_Time":"dsfgfdgdf",
         "Sum_price":34,
         "meals":
         [
             {
-                "Food_Id":"rfdtfgsh",
+                "Food_Id":123,
                 "Food_Name":"kvjfndb",
                 "Cost":124,
                 "Count":5

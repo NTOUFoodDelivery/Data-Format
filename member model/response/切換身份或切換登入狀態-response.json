@@ -1,4 +1,6 @@
 {
-    "status":true,
-    "User_Status":"4vf5dty"
+    "userID":123,
+    "userStatus":"dsf",
+    "statusCode": 200,
+    "time": "Mon May 13 15:50:04 CST 2019"
 }
