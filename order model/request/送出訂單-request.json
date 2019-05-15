@@ -1,16 +1,26 @@
-{
-    "Customer_Id":123,
-    "Deliver_Id":456,
-    "Order_Id":2536,
-    "Start_Time":"tfdyhj",
-    "Total":634,
-    "meals":
-    [
-        {
-            "Food_Id":"rfdtfgsh",
-            "Count":5
-        }
+{  
+    "Customer_Id":1,
+    "Deliver_Id":0,
+    "Order_Id":1557915145,
+    "Start_Time":"2019-05-14 03:31:00",
+    "Rest_Address":"中正路111號",
+    "Address":"A市",
+    "Rest_Name":"Apple203",
+    "Type_Count":2,
+    "Total":35,
+    "Order_Status":"WAIT",
+    "meals":[  
+       {  
+          "Food_Id":1,
+          "Food_Name":"薯餅蛋餅",
+          "Count":1
+       },
+       {  
+          "Food_Id":2,
+          "Food_Name":"蘋果汁",
+          "Count":1
+       }
     ],
-    "Order_Status":"vlcdsx",
-    "Other":"gufjdk"
-}
+    "Other":"gufjdk",
+    "value":0
+ }
