@@ -9,11 +9,7 @@
     - HTTP Method: Post
     - URL: /SignUpServlet
     - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
-- 會員模組-切換身份-request.json
-    - HTTP Method: Post
-    - URL: /SwitchIdentityServlet
-    - ContentType: application/json;charset=UTF-8
-- 會員模組-切換登入狀態-request.json
+- 會員模組-切換登入狀態及切換身份-request.json
     - HTTP Method: Post
     - URL: /SwitchStatusServlet
     - ContentType: application/json;charset=UTF-8
@@ -25,27 +21,23 @@
     - HTTP Method: Post
     - URL: /ShowMenuServlet
     - ContentType: application/json;charset=UTF-8
-- 菜單模組-計算餐廳時間-request.json
-    - HTTP Method: Post
-    - URL: /CalculateDeliveryTimeServlet
-    - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-送出訂單-request.json
     - HTTP Method: Post
     - URL: /SendOrderServlet
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-外送員-查看已接單頁面-request.json
     - HTTP Method: GET
-    - URL: /ShowDeliveryStaffCurrentOrderServlet?userID=123
+    - URL: /ShowDeliveryStaffCurrentOrderServlet?userID=3
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-查看訂單狀態-request.json
     - HTTP Method: GET
-    - URL: /ShowCommonUserCurrentOrderServlet?userID=123
+    - URL: /ShowCommonUserCurrentOrderServlet?userID=1
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-食客-查看購買紀錄-request.json
     - HTTP Method: GET
-    - URL: /ShowCommonUserHistoryOrderServlet?userID=123
+    - URL: /ShowCommonUserHistoryOrderServlet?userID=2
     - ContentType: application/json;charset=UTF-8
 - 訂單模組-外送員-查看購買紀錄-request.json
     - HTTP Method: GET
-    - URL: /ShowDeliveryStaffHistoryOrderServlet?userID=123
+    - URL: /ShowDeliveryStaffHistoryOrderServlet?userID=3
     - ContentType: application/json;charset=UTF-8
