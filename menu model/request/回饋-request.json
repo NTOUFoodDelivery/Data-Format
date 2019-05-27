@@ -1,14 +1,6 @@
 {
-    "query": {
-        "command": "add",
-        "what": "feedBack"
-    },
-    "result": [
-        {
-            "Feedback_Id":1234,
-            "User_Id":4567,
-            "Content":"hi",
-            "Back_Content":"hi~"
-        }
-    ]
+    "Feedback_Id": 1234,
+    "User_Id": 4567,
+    "Content": "hi",
+    "Back_Content": "hi~"
 }
