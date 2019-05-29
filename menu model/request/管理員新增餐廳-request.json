@@ -1,21 +1,7 @@
 {
-    "query":{
-        "command":"add",
-        "what":"rest"
-    },
-    "result": [
-        {
-            "Rest_ID": 123,
-            "Rest_Name": "test1",
-            "Rest_Address": "test1",
-            "Description": "test1",
-            "Rest_Photo":"url"
-        },
-        {
-            "Rest_ID": 456,
-            "Rest_Name": "test2",
-            "Rest_Address": "test2",
-            "Description": "test2"
-        }
-    ]
+    "Rest_ID": 123,
+    "Rest_Name": "test1",
+    "Rest_Address": "test1",
+    "Description": "test1",
+    "Rest_Photo": "url"
 }
