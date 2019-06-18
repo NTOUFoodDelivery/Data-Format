@@ -15,7 +15,7 @@
     - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
 - 會員模組-切換登入狀態及切換身份-request.json
     - HTTP Method: Post
-    - URL: /SwitchStatusServlet
+    - URL: /SwitchStatusServlet?userStatus=${userStatus}
     - ContentType: application/json;charset=UTF-8
 - 會員模組-管理員-修改使用者狀態-request.json
     - HTTP Method: Post
