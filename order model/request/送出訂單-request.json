@@ -2,6 +2,7 @@
    "Customer": {
       "User_Id": 1,
       "User_Name": "你好",
+      "Account":"sadsd",
       "Address": "我家",
       "Other": "gufjdk",
       "Phone_Number": "02222"
@@ -9,6 +10,7 @@
    "Deliver": {
       "User_Id": 3,
       "User_Name": "Testd",
+      "Account":"Testd",
       "Phone_Number": "111111"
    },
    "Order": {
@@ -16,38 +18,22 @@
       "Total": 75,
       "Type_Count": 2,
       "Meals": [{
-         "Rest_Name": "阿MAN 早午餐",
-         "Rest_Address": "基隆市中正區中正路822號1樓",
-         "Meals": [{
-               "Food_Id": 3,
-               "Food_Name": "麥克雞塊",
-               "Cost": 25,
-               "Count": 2
-            },
-            {
-               "Food_Id": 4,
-               "Food_Name": "蘿蔔糕",
-               "Cost": 25,
-               "Count": 1
-            }
-         ]
-      }, {
-         "Rest_Name": "OOXX 早午餐",
-         "Rest_Address": "基隆市ＸＸ區ＯＯ路ＸＸ號1樓",
-         "Meals": [{
-               "Food_Id": 5,
-               "Food_Name": "鐵板麵",
-               "Cost": 25,
-               "Count": 2
-            },
-            {
-               "Food_Id": 2,
-               "Food_Name": "蘿蔔糕",
-               "Cost": 25,
-               "Count": 1
-            }
-         ]
-      }],
+            "Rest_Name": "阿MAN 早午餐",
+            "Rest_Address": "基隆市中正區中正路822號1樓",
+            "Food_Id": 3,
+            "Food_Name": "麥克雞塊",
+            "Cost": 25,
+            "Count": 2
+         },
+         {
+            "Rest_Name": "阿MAN 早午餐",
+            "Rest_Address": "基隆市中正區中正路822號1樓",
+            "Food_Id": 4,
+            "Food_Name": "蘿蔔糕",
+            "Cost": 25,
+            "Count": 1
+         }
+      ],
       "Start_Time": "2019-05-17 03:31:00",
       "Order_Status": "WAIT",
       "CastingPrio": 0

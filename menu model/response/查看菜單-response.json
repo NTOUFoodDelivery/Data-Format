@@ -1,32 +1,34 @@
-{
-    "result": [
-        {
-            "Food_Id": "1",
-            "Food_Name": "薯餅蛋餅",
-            "Rest_Id": "1",
-            "Cost": "35",
-            "Description": "蛋餅包薯餅"
-        },
-        {
-            "Food_Id": "2",
-            "Food_Name": "蘋果汁",
-            "Rest_Id": "1",
-            "Cost": "20",
-            "Description": "蘋果的汁，濃縮的"
-        },
-        {
-            "Food_Id": "3",
-            "Food_Name": "蘿蔔糕",
-            "Rest_Id": "1",
-            "Cost": "35",
-            "Description": "加醬油"
-        },
-        {
-            "Food_Id": "4",
-            "Food_Name": "搖滾炸薯條",
-            "Rest_Id": "1",
-            "Cost": "25",
-            "Description": "番茄醬很少"
-        }
-    ]
-}
+[
+    {
+        "Food_Id": 1,
+        "Food_Name": "熱狗",
+        "Rest_Id": 0,
+        "Cost": 15,
+        "Description": "點點心",
+        "Image": "https://imgur.com/tL1nEpa.jpg"
+    },
+    {
+        "Food_Id": 2,
+        "Food_Name": "黃金薯餅",
+        "Rest_Id": 0,
+        "Cost": 15,
+        "Description": "點點心",
+        "Image": "https://imgur.com/tL1nEpa.jpg"
+    },
+    {
+        "Food_Id": 3,
+        "Food_Name": "麥克雞塊",
+        "Rest_Id": 0,
+        "Cost": 25,
+        "Description": "點點心",
+        "Image": "https://imgur.com/tL1nEpa.jpg"
+    },
+    {
+        "Food_Id": 4,
+        "Food_Name": "蘿蔔糕",
+        "Rest_Id": 0,
+        "Cost": 25,
+        "Description": "點點心",
+        "Image": "https://imgur.com/tL1nEpa.jpg"
+    }
+]
