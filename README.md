@@ -5,6 +5,10 @@
     - HTTP Method: Post
     - URL: /LoginServlet
     - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
+- 會員模組-登出-request.json
+    - HTTP Method: GET
+    - URL: /LogoutServlet
+    - ContentType: application/json;charset=UTF-8
 - 會員模組-獲取登入資訊-request.json
     - HTTP Method: GET
     - URL: /LoginServlet
