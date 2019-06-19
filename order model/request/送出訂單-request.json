@@ -7,12 +7,6 @@
       "Other": "gufjdk",
       "Phone_Number": "02222"
    },
-   "Deliver": {
-      "User_Id": 3,
-      "User_Name": "Testd",
-      "Account":"Testd",
-      "Phone_Number": "111111"
-   },
    "Order": {
       "Order_Id": 253678911,
       "Total": 75,

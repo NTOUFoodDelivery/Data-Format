@@ -13,17 +13,17 @@
     - HTTP Method: Post
     - URL: /SignUpServlet
     - ContentType: application/x-www-form-urlencoded 或 multipart/form-data
+- 會員模組-切換切換身份-request.json
+    - HTTP Method: Post
+    - URL: /SwitchTypeServlet?userNow=${userNow}
+    - ContentType: application/json;charset=UTF-8
 - 會員模組-切換登入狀態及切換身份-request.json
     - HTTP Method: Post
     - URL: /SwitchStatusServlet?userStatus=${userStatus}
     - ContentType: application/json;charset=UTF-8
 - 會員模組-管理員-修改使用者狀態-request.json
     - HTTP Method: Post
-    - URL: /ModifyMemberServlet?cmd=USER_BAN/DELETE&userID=${user_id}
-    - ContentType: application/json;charset=UTF-8
-- 會員模組-所有使用者-食客/外送員發回饋、管理員處理回饋-request.json
-    - HTTP Method: Post
-    - URL: /FeedbackServlet?cmd=CREATE/REPLY/SHOW
+    - URL: /MemberServlet/modify?cmd=USER_BAN/DELETE&userID=${user_id}
     - ContentType: application/json;charset=UTF-8
 
 - 菜單模組-查看餐廳-request.json
